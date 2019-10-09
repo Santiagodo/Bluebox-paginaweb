@@ -1,19 +1,19 @@
-#header-top{
+.container{
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
-nav{
-	margin-top: 10px;
+	width: 100%;
+	height: 90px;
+	background: #ffffff;
 }
 nav ul {
-	list-style: none;padding-left: 2;
+	list-style: none;padding-left: : 2;
 }
 nav ul li {
 	display: inline-block;
 }
 nav ul li a {
-	text-decoration: none;color: #626262;font-size: 20px 15px;padding: 15px;
-	border-right: 0px solid #626262;font-family: "PT Sans" , sans-serif;
+	text-decoration: none; color: #626262; font-size: 15px; padding: 0px 15px;
+	border-right: 0px solid #626262;font-family: 'PT Sans', sans-serif; 
 }
 nav ul li:last-child a{
 	padding-right: 2; border-right: none;
@@ -21,12 +21,208 @@ nav ul li:last-child a{
 nav ul li a:hover, .menu-activo{
 	color: #00aeff;
 }
-#menu-header{
+#header-lower{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 100%;
-	height: 105px;
+	height: 110px;
 	border-bottom: 0px solid #000000;
 	background: #e2e7ed;
-	padding-left: 120px;
+	padding-left: 102px;
+}
+#header-lower nav ul li a{
+	padding: 0px 20px;
+	border: 0px solid #ccc;
+}
+#header-lower nav ul span{
+	padding: 20px 55px;
+	border: 0px solid #ccc;
+	font-size: 38px;
+	padding-left: 75px;
+	padding-bottom: 20px;
+}
+#menu-one{
+	padding-top: 20px;
+	padding-bottom: 65px;
+	width: 100%;
+	height: 620px;
+	border-bottom: 0px solid #000000;
+	background: #908ef3;
+}
+#menu-one nav ul span{
+	padding: 0px 65px;
+	border: 0px solid #ccc;
+	font-size: 27px;
+	color: #ffffff;
+	border: 0px solid #ccc;
+	padding-left: 165px;
+}
+#categoria{
+	width: 100%;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+.uno{
+	padding: 54px 40px;
+	padding-left: 175px;
+	width: 600px;
+	height: 500px;
+	border: 0px solid;
+	float: left;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+.tema{
+	padding: 15px 0px; 
+	color: #000000;
+}
+.texto{
+	color: #000000; font-size: 11px
+}
+.uno1{
+	margin-left:0px;
+	padding: 54px 0px;
+	padding-top: 0px;
+}
+
+
+
+#menu-two{
+	padding-top: 20px;
+	padding-bottom: 65px;
+	width: 100%;
+	height: 620px;
+	border-bottom: 0px solid #000000;
+	background: #58d99c;
+}
+#menu-two nav ul span{
+	padding: 0px 65px;
+	border: 0px solid #ccc;
+	font-size: 27px;
+	color: #ffffff;
+	border: 0px solid #ccc;
+	padding-left: 165px;
+}
+#categoria2{
+	width: 100%;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+.dos{
+	padding: 54px 40px;
+	padding-left: 175px;
+	width: 600px;
+	height: 500px;
+	border: 0px solid;
+	float: left;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+.tema{
+	padding: 15px 0px; 
+	color: #000000;
+}
+.texto{
+	color: #000000; font-size: 11px
+}
+.loco{
+	margin-left:774px;
+	padding: 54px 0px;
+	padding-top: 0px;
+}
+
+
+
+#menu-three{
+	padding-top: 20px;
+	padding-bottom: 65px;
+	width: 100%;
+	height: 620px;
+	border-bottom: 0px solid #000000;
+	background: #f4776d;
+}
+#menu-three nav ul span{
+	padding: 0px 65px;
+	border: 0px solid #ccc;
+	font-size: 27px;
+	color: #ffffff;
+	border: 0px solid #ccc;
+	padding-left: 165px;
+}
+#categoria3{
+	width: 100%;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+.tres{
+	padding: 54px 40px;
+	padding-left: 175px;
+	width: 600px;
+	height: 500px;
+	border: 0px solid;
+	float: left;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+.tema{
+	padding: 15px 0px; 
+	color: #000000;
+}
+.texto{
+	color: #000000; font-size: 11px
+}
+.tres1{
+	margin-left:0px;
+	padding: 54px 0px;
+	padding-top: 0px;
+}
+
+
+
+#menu-four{
+	padding-top: 20px;
+	padding-bottom: 65px;
+	width: 100%;
+	height: 620px;
+	border-bottom: 0px solid #000000;
+	background: #edca52;
+}
+#menu-four nav ul span{
+	padding: 0px 65px;
+	border: 0px solid #ccc;
+	font-size: 27px;
+	color: #ffffff;
+	border: 0px solid #ccc;
+	padding-left: 165px;
+}
+#categoria4{
+	width: 100%;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top: 10px;
+}
+.cuatro{
+	padding: 54px 40px;
+	padding-left: 175px;
+	width: 600px;
+	height: 500px;
+	border: 0px solid;
+	float: left;
+	padding-top: 0px;
+	font-family: sans-serif;
+}
+.tema{
+	padding: 15px 0px; 
+	color: #000000;
+}
+.texto{
+	color: #000000; font-size: 11px
+}
+.cuatro1{
+	margin-left:0px;
+	padding: 54px 0px;
+	padding-top: 0px;
 }
