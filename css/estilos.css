@@ -1,25 +1,32 @@
-.container{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	width: 100%;
-	height: 90px;
-	background: #ffffff;
+#header-top{
+padding-top: 30px;
+padding-bottom: 30px;
 }
-nav ul {
-	list-style: none;padding-left: : 2;
+nav{
+	margin-top:10px;
 }
-nav ul li {
+nav ul{
+	list-style: none;padding-left: 100px;
+}
+nav ul li{
 	display: inline-block;
 }
-nav ul li a {
-	text-decoration: none; color: #626262; font-size: 15px; padding: 0px 15px;
-	border-right: 0px solid #626262;font-family: 'PT Sans', sans-serif; 
+nav ul li a{
+	text-decoration: none;color: #626262;font-size: 15px;padding: 0px 25px; border-right: 2px solid #626262;font-family: 'PT Sans', sans-serif;
 }
 nav ul li:last-child a{
-	padding-right: 2; border-right: none;
+	padding-right: 0; border-right: none;
 }
 nav ul li a:hover, .menu-activo{
-	color: #00aeff;
+color: #00aeff;
+}
+#buscador-header form input{
+	border: none;
+}	
+#buscador-header form button{
+	border: none;
+	background: #ffffff;
+	color: #c1c1c1;
 }
 #header-lower{
 	padding-top: 15px;
@@ -28,34 +35,36 @@ nav ul li a:hover, .menu-activo{
 	height: 110px;
 	border-bottom: 0px solid #000000;
 	background: #e2e7ed;
-	padding-left: 102px;
 }
 #header-lower nav ul li a{
 	padding: 0px 20px;
 	border: 0px solid #ccc;
 }
 #header-lower nav ul span{
-	padding: 20px 55px;
+	padding: 20px 65px;
 	border: 0px solid #ccc;
 	font-size: 38px;
-	padding-left: 75px;
+	padding-left: 20px;
 	padding-bottom: 20px;
+	font-family: 'Myriad pro', sans-serif;
+	color: #626262; 
 }
 #menu-one{
-	padding-top: 20px;
+	padding-top: 65px;
 	padding-bottom: 65px;
 	width: 100%;
-	height: 620px;
+	height: 630px;
 	border-bottom: 0px solid #000000;
-	background: #908ef3;
+	background: #9fa6ed;
+		padding: 40px;
 }
 #menu-one nav ul span{
-	padding: 0px 65px;
-	border: 0px solid #ccc;
+	padding: 0px 20px;
 	font-size: 27px;
 	color: #ffffff;
 	border: 0px solid #ccc;
-	padding-left: 165px;
+	padding-left: 0px;
+	font-family: 'Myriad pro', sans-serif;
 }
 #categoria{
 	width: 100%;
@@ -65,164 +74,229 @@ nav ul li a:hover, .menu-activo{
 }
 .uno{
 	padding: 54px 40px;
-	padding-left: 175px;
+	padding-left: 85px;
 	width: 600px;
 	height: 500px;
 	border: 0px solid;
 	float: left;
-	padding-top: 0px;
-	font-family: sans-serif;
 }
 .tema{
 	padding: 15px 0px; 
 	color: #000000;
 }
 .texto{
-	color: #000000; font-size: 11px
+	color: #000000;
+	padding-left: 0px;
 }
-.uno1{
-	margin-left:0px;
+.dos {
+	margin-left: 10px;
 	padding: 54px 0px;
-	padding-top: 0px;
 }
-
-
-
 #menu-two{
-	padding-top: 20px;
+	padding-top: 65px;
 	padding-bottom: 65px;
 	width: 100%;
-	height: 620px;
+	height: 630px;
 	border-bottom: 0px solid #000000;
 	background: #58d99c;
+		padding: 40px;
 }
 #menu-two nav ul span{
-	padding: 0px 65px;
-	border: 0px solid #ccc;
+	padding: 0px 20px;
 	font-size: 27px;
 	color: #ffffff;
 	border: 0px solid #ccc;
-	padding-left: 165px;
+	padding-left: 0px;
+	font-family: 'Myriad pro', sans-serif;
 }
-#categoria2{
+#categoria{
 	width: 100%;
 	height: auto; overflow: hidden;
 	border: 0px solid;
 	margin-top: 10px;
 }
-.dos{
+.uno{
 	padding: 54px 40px;
-	padding-left: 175px;
+	padding-left: 85px;
 	width: 600px;
 	height: 500px;
 	border: 0px solid;
 	float: left;
-	padding-top: 0px;
-	font-family: sans-serif;
 }
 .tema{
 	padding: 15px 0px; 
 	color: #000000;
 }
 .texto{
-	color: #000000; font-size: 11px
+	color: #000000;
+	padding-left: 0px;
 }
-.loco{
-	margin-left:774px;
+.dos {
+	margin-left: 10px;
 	padding: 54px 0px;
-	padding-top: 0px;
 }
-
-
-
 #menu-three{
-	padding-top: 20px;
+	padding-top: 65px;
 	padding-bottom: 65px;
 	width: 100%;
-	height: 620px;
+	height: 630px;
 	border-bottom: 0px solid #000000;
 	background: #f4776d;
+	padding: 40px;
 }
 #menu-three nav ul span{
-	padding: 0px 65px;
-	border: 0px solid #ccc;
+	padding: 0px 20px;
 	font-size: 27px;
 	color: #ffffff;
 	border: 0px solid #ccc;
-	padding-left: 165px;
+	padding-left: 0px;
+	font-family: 'Myriad pro', sans-serif;
 }
-#categoria3{
+#categoria{
 	width: 100%;
 	height: auto; overflow: hidden;
 	border: 0px solid;
 	margin-top: 10px;
 }
-.tres{
+.uno{
 	padding: 54px 40px;
-	padding-left: 175px;
+	padding-left: 85px;
 	width: 600px;
 	height: 500px;
 	border: 0px solid;
 	float: left;
-	padding-top: 0px;
-	font-family: sans-serif;
 }
 .tema{
 	padding: 15px 0px; 
 	color: #000000;
 }
 .texto{
-	color: #000000; font-size: 11px
+	color: #000000;
+	padding-left: 0px;
 }
-.tres1{
-	margin-left:0px;
+.dos {
+	margin-left: 10px;
 	padding: 54px 0px;
-	padding-top: 0px;
 }
-
-
-
 #menu-four{
-	padding-top: 20px;
+	padding-top: 65px;
 	padding-bottom: 65px;
 	width: 100%;
-	height: 620px;
+	height: 630px;
 	border-bottom: 0px solid #000000;
 	background: #edca52;
+	padding: 40px;
+	font-family: 'Myriad pro', sans-serif;
 }
 #menu-four nav ul span{
-	padding: 0px 65px;
-	border: 0px solid #ccc;
+	padding: 0px 20px;
 	font-size: 27px;
 	color: #ffffff;
 	border: 0px solid #ccc;
-	padding-left: 165px;
+	padding-left: 0px;
 }
-#categoria4{
+#categoria{
 	width: 100%;
 	height: auto; overflow: hidden;
 	border: 0px solid;
-	margin-top: 10px;
+	margin-top: -25px;
 }
-.cuatro{
+.uno{
 	padding: 54px 40px;
-	padding-left: 175px;
+	padding-left: 85px;
 	width: 600px;
 	height: 500px;
 	border: 0px solid;
 	float: left;
-	padding-top: 0px;
-	font-family: sans-serif;
 }
 .tema{
 	padding: 15px 0px; 
 	color: #000000;
 }
 .texto{
-	color: #000000; font-size: 11px
+	color: #000000;
+	padding-left: 0px;
 }
-.cuatro1{
-	margin-left:0px;
+.dos {
+	margin-left: 10px;
 	padding: 54px 0px;
-	padding-top: 0px;
+}
+#header-final{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	height: 225px;
+	border-bottom: 0px solid #000000;
+	background: #31333e;
+}
+.tres{
+	color: #ffffff;
+	padding: 0px 15px;
+	border: 0px solid #e70811;
+	padding-left: 110px;
+}
+.cuatro{
+	color: #ffffff;
+	padding: 0px 15px;
+	font-size: 11px;
+	padding-left: 110px;
+}
+#menu-final{
+	padding: 12px 20px;
+	padding-left: 30px;
+	width: 700px;
+	height: 200px;
+	border: 0px solid #e70811;
+	float: left;
+}
+#menu-final nav ul li a{
+	color: #ffffff;
+	float: left;
+	padding: 0px 15px;
+	padding-left: 10px;
+}
+#icons{
+	padding: 20px 0px;
+	padding-left: 100px;
+	width: 500px;
+	height: 100px;
+	border: 0px solid #e70811;
+	float: left;
+	padding-right: 50px;
+}
+#icons form button{
+	border: none;
+}
+.cinco{
+	padding-left: 43px;
+}
+.facebook{
+	color: #ffffff;
+	background: #23599c;
+}
+.linkedin{
+	color: #ffffff;
+	background: #006dc4;
+}
+.twitter{
+	color: #ffffff;
+	background: #00c7f8;
+}
+.pinterest{
+	color: #ffffff;
+	background: #e70811;
+}
+.basketball{
+	color: #ffffff;
+	background: #ff5c96;
+}
+.google{
+	color: #ffffff;
+	background: #f23c2a;
+}
+#margen{
+	width: 100%;
+	height: auto; overflow: hidden;
+	border: 0px solid #000000;
+	margin-top: 0px;
 }
